@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculadora {
+  width: 333px;
+  height: 330px;
+  background-color: dimgrey;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.visor input {
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  text-align: left;
+  font-size: 25px;
+}
+.botoes input {
+  margin: 10px;
+  font-size: 30px;
+  width: 60px;
+  border-radius: 5px;
+  color: black;
+}
+.igual {
+  background-color: red;
+  width: 10px;
+  margin-left: 30px;
+}

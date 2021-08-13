@@ -1,0 +1,42 @@
+p9<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <div class="calculadora">
+      <div class="visor">
+        <input type="text" id="visor" />
+      </div>
+      <div class="botoes">
+        <input id="num1" type="submit" value="1" onclick="unir(1);" />
+        <input id="num2" type="submit" value="2" onclick="unir(2);" />
+        <input id="num3" type="submit" value="3" onclick="unir(3);" />
+        <input id="soma" type="submit" value="+" onclick="unir('+');" />
+        <input id="num4" type="submit" value="4" onclick="unir(4);" />
+        <input id="num5" type="submit" value="5" onclick="unir(5);" />
+        <input id="num6" type="submit" value="6" onclick="unir(6);" />
+        <input id="subtrair" type="submit" value="-" onclick="unir('-');" />
+        <input id="num7" type="submit" value="7" onclick="unir(7);" />
+        <input id="num8" type="submit" value="8" onclick="unir(8);" />
+        <input id="num9" type="submit" value="9" onclick="unir(9);" />
+        <input id="dividir" type="submit" value="/" onclick="unir('/');" />
+        <input id="zero" type="submit" value="0" onclick="unir(0);" />
+        <input id="limpar" type="submit" value="c" onclick="limpar();" />
+        <input
+          id="igual"
+          type="submit"
+          value="="
+          class="igual"
+          onclick="calcular()"
+        />
+        <input id="multiplicar" type="submit" value="*" onclick="unir('*');" />
+      </div>
+    </div>
+  </body>
+</html>
